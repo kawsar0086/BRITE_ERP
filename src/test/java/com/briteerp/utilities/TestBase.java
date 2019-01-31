@@ -15,11 +15,9 @@ import java.util.concurrent.TimeUnit;
 public abstract class TestBase {
     protected WebDriver driver;
     protected Pages pages;
-
     protected static ExtentReports report;
     private static ExtentHtmlReporter htmlReporter;
     protected static ExtentTest extentLogger;
-
 
     @BeforeMethod(alwaysRun = true)
     public void setupMethod() {
