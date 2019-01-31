@@ -1,6 +1,7 @@
-package com.briteerp.tests.smoke_tests;
+package com.briteerp.tests;
 
 import com.briteerp.pages.LoginPage;
+import com.briteerp.utilities.Driver;
 import com.briteerp.utilities.TestBase;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
@@ -8,10 +9,11 @@ import org.testng.annotations.Test;
 public class SmokeTest extends TestBase {
 
     @Test
-    public void ALlTests(){
+    public void ALlTests() throws InterruptedException {
 
-        LoginPage.Managerlogin(driver);
-        LoginPage.Userlogin();
+        LoginPage.Managerlogin(Driver.getDriver());
+
+        Driver.closeDriver();
 
 
     }

@@ -26,24 +26,21 @@ public class LoginPage extends TestBase {
     static    @FindBy(xpath = ".//*[@id='wrapwrap']/main/div/form/div[4]/button")
     WebElement singinButton;
 
-    static	  @FindBy(xpath="//span[contains(text(),'Purchases')]")
-    WebElement purchaseMoudle;
+    static	 @FindBy(className="oe_menu_text")
+    WebElement LucnModel;
 
-    public  static void Managerlogin(WebDriver driver) {
+    public  static void Managerlogin(WebDriver driver) throws InterruptedException {
         driver.get("http://52.39.162.23/web/login");
-        wait.until(ExpectedConditions.visibilityOf(firstClick));
+
         firstClick.click();
 
-        wait.until(ExpectedConditions.visibilityOf(email));
         email.sendKeys(infos.getManagerEmail());
-
-        wait.until(ExpectedConditions.visibilityOf(password));
         password.sendKeys(infos.getManagerPassword());
 
-        wait.until(ExpectedConditions.visibilityOf(singinButton));
         singinButton.click();
 
-        purchaseMoudle.click();
+        Thread.sleep(6000);
+        LucnModel.click();
 
     }
     public static void Userlogin(WebDriver driver) {
