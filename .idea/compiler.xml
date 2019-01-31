@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="brite-erp" />
+        <module name="BRITE_ERP" />
         <module name="Github Projects" />
       </profile>
     </annotationProcessing>

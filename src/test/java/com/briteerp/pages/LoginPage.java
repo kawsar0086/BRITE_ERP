@@ -26,7 +26,7 @@ public class LoginPage extends TestBase {
     static    @FindBy(xpath = ".//*[@id='wrapwrap']/main/div/form/div[4]/button")
     WebElement singinButton;
 
-    static	 @FindBy(className="oe_menu_text")
+    static	 @FindBy(xpath = "//*[@id=\"oe_main_menu_navbar\"]/div[2]/ul[1]/li[13]/a/span")
     WebElement LucnModel;
 
     public  static void Managerlogin(WebDriver driver) throws InterruptedException {
