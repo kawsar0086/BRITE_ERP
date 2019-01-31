@@ -1,4 +1,5 @@
 package com.briteerp.pages;
+import com.briteerp.utilities.ConfigurationReader;
 import com.briteerp.utilities.Driver;
 import com.briteerp.utilities.TestBase;
 import org.openqa.selenium.WebDriver;
@@ -13,10 +14,8 @@ public class LoginPage extends TestBase {
 
 
     static LoginPage obj=PageFactory.initElements(Driver.getDriver(), LoginPage.class);
-    static credentials infos= new credentials();
-
     static	@FindBy(xpath = "html/body/div[1]/div/div[2]/a[2]")
-    WebElement firstClick;
+    WebElement demoAccount;
 
     static	    @FindBy(xpath = ".//*[@id='login']")
     WebElement email;
@@ -33,43 +32,35 @@ public class LoginPage extends TestBase {
     static  @FindBy(xpath = "//button[@class='btn btn-sm btn-primary']")
     WebElement okButton;
 
-    public  static void Managerlogin(WebDriver driver) throws InterruptedException {
-        driver.get("http://52.39.162.23/web/login");
-
-        firstClick.click();
-
-        email.sendKeys(infos.getManagerEmail());
-        password.sendKeys(infos.getManagerPassword());
-
+    public void managerLogin(String username,String psw){
+        demoAccount.click();
+        email.sendKeys(username);
+        password.sendKeys(psw);
         singinButton.click();
 
-        Thread.sleep(6000);
         LucnModel.click();
 
         Actions actToOkButton = new Actions(Driver.getDriver());
-        Thread.sleep(2000);
 
         actToOkButton.moveToElement(okButton).perform();   // in Actions, we have to do the perform  in order to execute
 
-        Thread.sleep(2000);
+        okButton.click();
+    }
+    public void userLogin(String username,String psw){
+        demoAccount.click();
+        email.sendKeys(username);
+        password.sendKeys(psw);
+        singinButton.click();
+        LucnModel.click();
+        Actions actToOkButton = new Actions(Driver.getDriver());
 
+        actToOkButton.moveToElement(okButton).perform();   // in Actions, we have to do the perform  in order to execute
 
         okButton.click();
-
     }
-    public static void Userlogin(WebDriver driver) {
-        driver.get("http://52.39.162.23/web/login");
-        wait.until(ExpectedConditions.visibilityOf(firstClick));
-        firstClick.click();
 
-        wait.until(ExpectedConditions.visibilityOf(email));
-        email.sendKeys(infos.getUserEmail());
-
-        wait.until(ExpectedConditions.visibilityOf(password));
-        password.sendKeys(infos.getUserPassword());
-
-        wait.until(ExpectedConditions.visibilityOf(singinButton));
-        singinButton.click();
+    public void open(){
+        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
     }
 
 

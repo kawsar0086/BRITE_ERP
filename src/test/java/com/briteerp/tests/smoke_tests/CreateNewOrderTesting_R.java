@@ -7,28 +7,9 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class CreateNewOrderTesting_R {
-
-
-
     @Test
-    public void test() throws InterruptedException {
-
-        LoginPage.Managerlogin(Driver.getDriver());
-
-
-        WebElement addItem = Driver.getDriver().findElement(By.xpath("//td[@class='o_field_x2many_list_row_add']"));
-
-        addItem.click();
-
-
-
+    public void test(){
 
 
     }
-
-
-
-
-
-
 }
