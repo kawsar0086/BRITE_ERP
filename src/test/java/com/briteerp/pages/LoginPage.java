@@ -28,7 +28,7 @@ public class LoginPage extends TestBase {
     static	  @FindBy(xpath="//span[contains(text(),'Purchases')]")
     WebElement purchaseMoudle;
 
-    public  void Managerlogin(WebDriver driver) {
+    public  static void Managerlogin(WebDriver driver) {
         driver.get("http://52.39.162.23/web/login");
         wait.until(ExpectedConditions.visibilityOf(firstClick));
         firstClick.click();
@@ -45,7 +45,7 @@ public class LoginPage extends TestBase {
         purchaseMoudle.click();
 
     }
-    public  void Userlogin() {
+    public static void Userlogin(WebDriver driver) {
         driver.get("http://52.39.162.23/web/login");
         wait.until(ExpectedConditions.visibilityOf(firstClick));
         firstClick.click();
