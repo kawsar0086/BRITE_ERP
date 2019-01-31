@@ -1,4 +1,5 @@
 package com.briteerp.pages;
+import com.briteerp.utilities.Driver;
 import com.briteerp.utilities.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 public class LoginPage extends TestBase {
 
 
-    static LoginPage obj=PageFactory.initElements(driver, LoginPage.class);
+    static LoginPage obj=PageFactory.initElements(Driver.getDriver(), LoginPage.class);
     static credentials infos= new credentials();
 
     static	@FindBy(xpath = "html/body/div[1]/div/div[2]/a[2]")
