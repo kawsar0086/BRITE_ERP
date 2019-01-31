@@ -1,32 +1,71 @@
 package com.briteerp.utilities;
-import io.github.bonigarcia.wdm.WebDriverManager;
+
+import com.aventstack.extentreports.ExtentReporter;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 
-import java.util.concurrent.TimeUnit;
-public class TestBase {
+public abstract class TestBase {
+    protected WebDriver driver;
+    protected Pages pages;
+    protected static ExtentReports report;
+    private static ExtentHtmlReporter htmlReporter;
+    protected static ExtentTest extentLogger;
 
-    public static WebDriverWait wait;
-    public static WebDriver driver;
-
-    @BeforeMethod
-    public void beforeEachTest() {
-
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        wait=new WebDriverWait(driver, 10);
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
-
-
-
+    public TestBase() {
     }
 
+    @BeforeMethod(
+            alwaysRun = true
+    )
+    public void setupMethod() {
+        this.driver = Driver.getDriver();
+        this.pages = new Pages();
+        this.driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
+        this.driver.get(ConfigurationReader.getProperty("url"));
+    }
+
+    @AfterMethod(
+            alwaysRun = true
+    )
+    public void tearDownMethod(ITestResult result) throws IOException {
+        if (result.getStatus() == 2) {
+            String screenshotLocation = BrowserUtils.getScreenshot(result.getName());
+            extentLogger.fail(result.getName());
+            extentLogger.addScreenCaptureFromPath(screenshotLocation);
+            extentLogger.fail(result.getThrowable());
+        } else if (result.getStatus() == 3) {
+            extentLogger.skip("Test Case Skipped: " + result.getName());
+        }
+
+        Driver.closeDriver();
+    }
+
+    @BeforeTest(
+            alwaysRun = true
+    )
+    public void setUpTest() {
+        report = new ExtentReports();
+        String filePath = System.getProperty("user.dir") + "/test-output/report.html";
+        htmlReporter = new ExtentHtmlReporter(filePath);
+        report.attachReporter(new ExtentReporter[]{htmlReporter});
+        report.setSystemInfo("Environment", "Staging");
+        report.setSystemInfo("Browser", ConfigurationReader.getProperty("browser"));
+        report.setSystemInfo("OS", System.getProperty("os.name"));
+        report.setSystemInfo("QA Engineer", "Admiral Kunkka");
+        htmlReporter.config().setDocumentTitle("Prestashop Reports");
+        htmlReporter.config().setReportName("Prestashop Automated Test Reports");
+    }
+
+<<<<<<< HEAD
 
 
     @AfterMethod
@@ -40,5 +79,12 @@ public class TestBase {
             driver.quit();
             driver = null;
         }
+=======
+    @AfterTest(
+            alwaysRun = true
+    )
+    public void tearDownTest() {
+        report.flush();
+>>>>>>> 7961694dea84fc931147a80686dee821d40f54d9
     }
 }
