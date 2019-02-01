@@ -15,16 +15,16 @@ public class TotalPirceChecking extends TestBase {
 
     @Test
     public void priceCheckingTest(){
-        extentLogger=report.createTest("login with manager username and password");
+        extentLogger=report.createTest("Total price test");
         extentLogger.info("Loging to application");
 
         pages.login().managerLogin(ConfigurationReader.getProperty("managerUsername"),
                 ConfigurationReader.getProperty("managerPassword"));
 
-
-        extentLogger=report.createTest("total price from Orders by Vendor page");
+        extentLogger.info("Verifying total price from Orders by Vendor page");
         pages.getAllMenu().order_by_vendor.click();
        Assert.assertTrue(pages.byVendorPage().totalPrice.isDisplayed());
+
 
     }
 
