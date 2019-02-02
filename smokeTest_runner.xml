@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Brite ERP smoke test suite">
+
+    <test name="smoke">
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="smoke"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+
+        <classes>
+            <class name="com.briteerp.tests.smoke_tests.TotalPirceChecking"/>
+            <class name="com.briteerp.tests.smoke_tests.DisplayActionAndOptionTest"/>
+        </classes>
+    </test>
+
+
+</suite>

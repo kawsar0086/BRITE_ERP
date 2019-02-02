@@ -1,11 +1,7 @@
 package com.briteerp.tests.smoke_tests;
 
-import com.briteerp.pages.LoginPage;
-import com.briteerp.pages.Menu;
-import com.briteerp.pages.OrderByVendorPage;
-import com.briteerp.utilities.ApplicationConstants;
+
 import com.briteerp.utilities.ConfigurationReader;
-import com.briteerp.utilities.Driver;
 import com.briteerp.utilities.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;

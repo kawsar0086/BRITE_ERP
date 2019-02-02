@@ -11,9 +11,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
 public class LoginPage extends TestBase {
+    public  LoginPage(){
+        PageFactory.initElements(Driver.getDriver(),this);
+    }
 
-
-    static LoginPage obj=PageFactory.initElements(Driver.getDriver(), LoginPage.class);
     static	@FindBy(xpath = "html/body/div[1]/div/div[2]/a[2]")
     WebElement demoAccount;
 

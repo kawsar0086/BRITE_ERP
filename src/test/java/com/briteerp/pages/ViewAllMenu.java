@@ -8,4 +8,5 @@ public class ViewAllMenu extends Menu {
         PageFactory.initElements(Driver.getDriver(),this);
 
     }
+
 }
