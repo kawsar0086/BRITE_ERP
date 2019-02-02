@@ -7,6 +7,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
@@ -20,6 +21,7 @@ public abstract class TestBase {
     private static ExtentHtmlReporter htmlReporter;
     protected static ExtentTest extentLogger;
     protected static WebDriverWait wait;
+
 
     @BeforeMethod(alwaysRun = true)
     public void setupMethod() {
