@@ -61,11 +61,11 @@ public class DisplayActionAndOptionTest  extends TestBase {
     @Test
     public  void displayPrintOptionTest(){
         Driver.getDriver().manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-        extentLogger=report.createTest("Display Action option test");
+        extentLogger=report.createTest("Display Print option test");
         pages.login().managerLogin(ConfigurationReader.getProperty("managerUsername"),
                 ConfigurationReader.getProperty("managerPassword"));
 
-        extentLogger.info("Verifying Action option when clicking each product by Vendor page");
+        extentLogger.info("Verifying Print option when clicking each product by Vendor page");
         pages.getAllMenu().order_by_vendor.click();
 
 
