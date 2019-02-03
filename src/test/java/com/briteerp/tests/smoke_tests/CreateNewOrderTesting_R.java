@@ -13,7 +13,7 @@ public class CreateNewOrderTesting_R extends TestBase {
         PageFactory.initElements(Driver.getDriver(), LoginPage.class);
     }
 
-    Failed
+    Fail
     @Test
     public void test() throws InterruptedException {
 
