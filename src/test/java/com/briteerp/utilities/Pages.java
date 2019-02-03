@@ -1,15 +1,16 @@
 package com.briteerp.utilities;
 
 import com.briteerp.pages.LoginPage;
+import com.briteerp.pages.LunchPage;
 import com.briteerp.pages.OrderByVendorPage;
 import com.briteerp.pages.ViewAllMenu;
-import com.sun.tools.corba.se.idl.constExpr.Or;
 
 public class Pages {
 
     private LoginPage loginPage;
     private ViewAllMenu allMenu;
     private OrderByVendorPage orderByVendorPage;
+    private LunchPage lunchPage;
 
     public LoginPage login(){
         if(loginPage==null){
@@ -33,6 +34,13 @@ public class Pages {
         return  orderByVendorPage;
     }
 
+    public LunchPage lunchPages(){
+        if(lunchPage==null){
+            lunchPage=new LunchPage();
+        }
+
+        return  lunchPage;
+    }
 
 
 }
