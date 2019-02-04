@@ -15,10 +15,17 @@ public class PreviousOrderPageTest extends TestBase {
 
     @Test
     public void test()throws InterruptedException{
-        LoginPage.managerLogin(ConfigurationReader.getProperty("managerUsername"),
-                ConfigurationReader.getProperty("managerPassword"));
-        Thread.sleep(3);
 
+        /**
+         * we can call login method from pages which is located in utilities.
+         * do not need to make managerLogin to static.
+         */
+
+       // LoginPage.managerLogin(ConfigurationReader.getProperty("managerUsername"),
+               // ConfigurationReader.getProperty("managerPassword"));
+        Thread.sleep(3);
+        pages.login().managerLogin(ConfigurationReader.getProperty("managerUsername"),
+                ConfigurationReader.getProperty("managerPassword"));
 
         PreviousOrderPage.confirmOrderCheckBox.click();
         PreviousOrderPage.printButon.click();
