@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public abstract class Menu {
 
-    public Menu(){
-        PageFactory.initElements(Driver.getDriver(),this);
+    public Menu() {
+        PageFactory.initElements(Driver.getDriver(), this);
 
     }
 
