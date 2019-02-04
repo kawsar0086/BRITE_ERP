@@ -1,6 +1,7 @@
 package com.briteerp.pages;
 
 import com.briteerp.utilities.Driver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -12,8 +13,8 @@ public abstract class Menu {
 
     }
 
-    @FindBy(xpath = "")
-    public WebElement new_order;
+    @FindBy(xpath = "(//td[@class='o_field_x2many_list_row_add'])//a")
+    public WebElement add_an_item;
 
     @FindBy()
     public WebElement previous_order;
