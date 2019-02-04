@@ -1,7 +1,6 @@
 package com.briteerp.tests.smoke_tests;
 
 import com.briteerp.pages.LoginPage;
-import com.briteerp.pages.NewOderPage;
 import com.briteerp.utilities.ConfigurationReader;
 import com.briteerp.utilities.Driver;
 import com.briteerp.utilities.TestBase;

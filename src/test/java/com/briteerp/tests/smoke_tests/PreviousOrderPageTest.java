@@ -23,9 +23,12 @@ public class PreviousOrderPageTest extends TestBase {
 
        // LoginPage.managerLogin(ConfigurationReader.getProperty("managerUsername"),
                // ConfigurationReader.getProperty("managerPassword"));
-        Thread.sleep(3);
+
         pages.login().managerLogin(ConfigurationReader.getProperty("managerUsername"),
                 ConfigurationReader.getProperty("managerPassword"));
+
+        Thread.sleep(3);
+
 
         PreviousOrderPage.confirmOrderCheckBox.click();
         PreviousOrderPage.printButon.click();
