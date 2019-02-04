@@ -37,7 +37,7 @@ public class LoginPage extends TestBase {
     static  @FindBy(xpath = "//button[@class='btn btn-sm btn-primary']")
     WebElement okButton;
 
-    public void managerLogin(String username,String psw){
+    public static void managerLogin(String username,String psw){
 
         demoAccount.click();
         email.sendKeys(username);
