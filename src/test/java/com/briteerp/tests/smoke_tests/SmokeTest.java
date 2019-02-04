@@ -11,7 +11,7 @@ public class SmokeTest extends TestBase {
     public void ALlTests(){
 
         LoginPage.Managerlogin(driver);
-        LoginPage.Userlogin("");
+        LoginPage.Userlogin();
 
 
     }
