@@ -6,6 +6,8 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
@@ -18,6 +20,8 @@ public abstract class TestBase {
     protected static ExtentReports report;
     private static ExtentHtmlReporter htmlReporter;
     protected static ExtentTest extentLogger;
+    protected static WebDriverWait wait;
+
 
     @BeforeMethod(alwaysRun = true)
     public void setupMethod() {
@@ -64,10 +68,10 @@ public abstract class TestBase {
         report.setSystemInfo("Browser", ConfigurationReader.getProperty("browser"));
         report.setSystemInfo("OS", System.getProperty("os.name"));
 
-        report.setSystemInfo("QA Engineer", "Admiral Kunkka");
+        report.setSystemInfo("QA Engineer", "Zulyar Kurban");
 
-        htmlReporter.config().setDocumentTitle("Prestashop Reports");
-        htmlReporter.config().setReportName("Prestashop Automated Test Reports");
+        htmlReporter.config().setDocumentTitle("Brite ERP Reports");
+        htmlReporter.config().setReportName("Brite ERP Automated Test Reports");
 
 //        htmlReporter.config().setTheme(Theme.DARK);
 
