@@ -17,24 +17,23 @@ public class NewOrderPageTest extends TestBase {
 
     @Test
     public void test()throws InterruptedException{
-<<<<<<< HEAD
+
         /**
-=======
          /**
 >>>>>>> 235407859c8fdca823125f599debb24e291a0777
          * we can call login method from pages which is located in utilities.
          * do not need to make managerLogin to static.
          */
 
-<<<<<<< HEAD
+
         // LoginPage.managerLogin(ConfigurationReader.getProperty("managerUsername"),
         // ConfigurationReader.getProperty("managerPassword"));
 
-=======
+
        // LoginPage.managerLogin(ConfigurationReader.getProperty("managerUsername"),
                // ConfigurationReader.getProperty("managerPassword"));
         
->>>>>>> 235407859c8fdca823125f599debb24e291a0777
+
         pages.login().managerLogin(ConfigurationReader.getProperty("managerUsername"),
                 ConfigurationReader.getProperty("managerPassword"));
 

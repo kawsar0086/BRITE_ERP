@@ -8,9 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 public class CreateNewOrderTesting_R extends TestBase {
-    public CreateNewOrderTesting_R() {
-        PageFactory.initElements(Driver.getDriver(), LoginPage.class);
-    }
 
    // Fail
     @Test
@@ -23,6 +20,8 @@ public class CreateNewOrderTesting_R extends TestBase {
         Thread.sleep(3);
         extentLogger.info("Verifying new order page displayed");
         NewOderPage.AddAnItem.click();
+
+
 
 
 
