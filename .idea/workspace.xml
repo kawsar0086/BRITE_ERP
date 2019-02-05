@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed6c88ac-f7e1-4fff-8bae-2d9c951ede6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/pages/NewOderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/pages/NewOderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/CreateNewOrderTesting_R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/CreateNewOrderTesting_R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Pages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteerp/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/briteerp/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteerp/pages/NewOderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/briteerp/pages/NewOderPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteerp/tests/smoke_tests/CreateNewOrderTesting_R.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/briteerp/tests/smoke_tests/CreateNewOrderTesting_R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteerp/utilities/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/briteerp/utilities/Pages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteerp/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/briteerp/utilities/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +19,7 @@
     <session id="-328408578">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
@@ -40,7 +30,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="java" value="46" />
+          <entry key="java" value="48" />
           <entry key="properties" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -48,7 +38,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="46" />
+          <entry key="JAVA" value="48" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -67,24 +57,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/utilities/ConfigurationReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/utilities/BrowserUtils.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,8 +78,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/NewOderPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="315">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/CreateNewOrderTesting_R.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/CreateNewAlert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,15 +114,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/CreateNewOrderTesting_R.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/Logo_CopyrigtTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -235,10 +228,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="947" />
+    <option name="height" value="937" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -298,33 +291,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="briteerp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="brite-erp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BRITE_ERP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="briteerp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brite-erp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BRITE_ERP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="briteerp" type="462c0819:PsiDirectoryNode" />
-              <item name="smoke_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brite-erp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BRITE_ERP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="briteerp" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -338,7 +304,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549323511573" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549408862354" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -457,8 +423,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.CreateNewOrderTesting_R.test" />
-        <item itemvalue="TestNG.Logo_CopyrigtTest" />
         <item itemvalue="TestNG.Logo_CopyrigtTest.logoTest" />
+        <item itemvalue="TestNG.Logo_CopyrigtTest" />
         <item itemvalue="TestNG.Logo_CopyrigtTest.copyRigtTest" />
         <item itemvalue="TestNG.CreateNewAlert.test" />
       </list>
@@ -482,45 +448,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.03 at 23h 26m 45s.xml">
-      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.03 at 23h 27m 31s.xml">
-      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.03 at 23h 28m 56s.xml">
-      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.03 at 23h 35m 38s.xml">
-      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Logo_CopyrigtTest - 2019.02.03 at 23h 36m 15s.xml">
-      <configuration name="Logo_CopyrigtTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.03 at 23h 57m 01s.xml">
-      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.03 at 23h 57m 41s.xml">
-      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.03 at 23h 58m 05s.xml">
-      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CreateNewOrderTesting_R_test - 2019.02.03 at 23h 58m 39s.xml">
       <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
     </history-entry>
     <history-entry file="CreateNewOrderTesting_R_test - 2019.02.04 at 11h 01m 19s.xml">
       <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.04 at 19h 35m 37s.xml">
+      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.04 at 19h 54m 50s.xml">
+      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.04 at 19h 55m 23s.xml">
+      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.04 at 19h 56m 00s.xml">
+      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateNewOrderTesting_R_test - 2019.02.04 at 19h 57m 41s.xml">
+      <configuration name="CreateNewOrderTesting_R.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Logo_CopyrigtTest_logoTest - 2019.02.04 at 20h 04m 30s.xml">
+      <configuration name="Logo_CopyrigtTest.logoTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Logo_CopyrigtTest_logoTest - 2019.02.04 at 20h 13m 35s.xml">
+      <configuration name="Logo_CopyrigtTest.logoTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Logo_CopyrigtTest_logoTest - 2019.02.04 at 21h 36m 09s.xml">
+      <configuration name="Logo_CopyrigtTest.logoTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="22787000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="944" extended-state="6" />
+    <frame x="22" y="23" width="1680" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20940171" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20940171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -530,12 +496,12 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41081703" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4331361" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.12773302" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19248827" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -669,23 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/Logo_CopyrigtTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="67" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/CreateNewAlert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/utilities/ConfigurationReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -753,8 +702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/NewOderPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="315">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -763,13 +712,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/CreateNewOrderTesting_R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="131">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#470#471#0" expanded="true" />
             <element signature="e#549#550#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/CreateNewAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/Logo_CopyrigtTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
