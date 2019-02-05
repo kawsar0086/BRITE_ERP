@@ -35,8 +35,6 @@ public class CreateNewOrderTesting_R extends TestBase {
 
                SelectBox.moveToElement(NewOderPage.CreateButton).perform();
 
-
-
            NewOderPage.CreateButton.click();
                                            mysleep(2);
     NewOderPage.inputProductName.sendKeys("polo" + Keys.ENTER);
