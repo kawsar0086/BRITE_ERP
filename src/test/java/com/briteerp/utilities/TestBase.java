@@ -3,13 +3,13 @@ package com.briteerp.utilities;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.ITestResult;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -79,5 +79,15 @@ public abstract class TestBase {
     @AfterTest(alwaysRun = true)
     public void tearDownTest() {
         report.flush();
+    }
+
+
+
+    public  static void mysleep(int a){
+        try {
+            Thread.sleep(a*1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
