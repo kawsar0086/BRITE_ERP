@@ -3,8 +3,6 @@ package com.briteerp.tests.smoke_tests;
 import com.briteerp.utilities.ConfigurationReader;
 import com.briteerp.utilities.Driver;
 import com.briteerp.utilities.TestBase;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -25,7 +23,7 @@ public class DisplayActionAndOptionTest  extends TestBase {
                 ConfigurationReader.getProperty("managerPassword"));
 
         extentLogger.info("Verifying Indivual price in each product by Vendor page");
-        pages.getAllMenu().order_by_vendor.click();
+        pages.getMenu().order_by_vendor.click();
 
         WebDriverWait wait= new WebDriverWait(Driver.getDriver(),10);
         wait.until(ExpectedConditions.visibilityOf(pages.byVendorPage().indivualPrice));
@@ -44,7 +42,7 @@ public class DisplayActionAndOptionTest  extends TestBase {
                 ConfigurationReader.getProperty("managerPassword"));
 
         extentLogger.info("Verifying Action option when clicking each product by Vendor page");
-        pages.getAllMenu().order_by_vendor.click();
+        pages.getMenu().order_by_vendor.click();
 
 
         pages.byVendorPage().vendor.click();
@@ -66,7 +64,7 @@ public class DisplayActionAndOptionTest  extends TestBase {
                 ConfigurationReader.getProperty("managerPassword"));
 
         extentLogger.info("Verifying Action option when clicking each product by Vendor page");
-        pages.getAllMenu().order_by_vendor.click();
+        pages.getMenu().order_by_vendor.click();
 
 
         pages.byVendorPage().vendor.click();

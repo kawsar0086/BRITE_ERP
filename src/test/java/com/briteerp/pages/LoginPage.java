@@ -1,5 +1,4 @@
 package com.briteerp.pages;
-import com.briteerp.utilities.ConfigurationReader;
 import com.briteerp.utilities.Driver;
 import com.briteerp.utilities.TestBase;
 import org.openqa.selenium.WebElement;
@@ -49,22 +48,5 @@ public class LoginPage extends TestBase {
 
         okButton.click();
     }
-    public void userLogin(String username,String psw){
-        demoAccount.click();
-        email.sendKeys(username);
-        password.sendKeys(psw);
-        singinButton.click();
-        LucnModel.click();
-        Actions actToOkButton = new Actions(Driver.getDriver());
-
-        actToOkButton.moveToElement(okButton).perform();   // in Actions, we have to do the perform  in order to execute
-
-        okButton.click();
-    }
-
-    public void open(){
-        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-    }
-
 
 }

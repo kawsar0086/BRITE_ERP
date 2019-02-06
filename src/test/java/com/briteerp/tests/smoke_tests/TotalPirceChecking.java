@@ -18,7 +18,7 @@ public class TotalPirceChecking extends TestBase {
                 ConfigurationReader.getProperty("managerPassword"));
 
         extentLogger.info("Verifying total price from Orders by Vendor page");
-        pages.getAllMenu().order_by_vendor.click();
+        pages.getMenu().order_by_vendor.click();
        Assert.assertTrue(pages.byVendorPage().totalPrice.isDisplayed());
 
 
