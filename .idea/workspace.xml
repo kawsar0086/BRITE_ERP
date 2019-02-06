@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ed6c88ac-f7e1-4fff-8bae-2d9c951ede6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/pages/EmployeePaymentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/pages/EmployeePaymentsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/importPaymentFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/importPaymentFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteerp/tests/smoke_tests/importPaymentFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/briteerp/tests/smoke_tests/importPaymentFileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsdisplayActionOptionTest20190205101359.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsdisplayPrintOptionTest20190205064649.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsimportButtonTest20190205113834.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsimportButtonTest20190206011417.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsimportButtonTest20190206011517.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsindividualPriceTest20190205064746.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspriceCheckingTest20190205063729.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspriceCheckingTest20190205064542.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspriceCheckingTest20190205065139.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspriceCheckingTest20190205065853.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshotstest20190205063645.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/EmployeePaymentsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+            <state relative-caret-position="202">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/importPaymentFileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="-578">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,6 +216,11 @@
               <item name="briteerp" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="brite-erp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BRITE_ERP" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -218,7 +234,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549476945010" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549481640269" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -369,44 +385,44 @@
       <workItem from="1549306550350" duration="756000" />
       <workItem from="1549307871076" duration="1747000" />
       <workItem from="1549409738280" duration="2012000" />
-      <workItem from="1549422619171" duration="5962000" />
+      <workItem from="1549422619171" duration="9702000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 11h 25m 48s.xml">
+    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 13m 09s.xml">
       <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 11h 27m 09s.xml">
+    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 16m 13s.xml">
       <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 11h 29m 37s.xml">
+    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 17m 59s.xml">
       <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 11h 30m 09s.xml">
+    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 19m 10s.xml">
       <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 11h 30m 49s.xml">
+    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 21m 46s.xml">
       <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 11h 32m 42s.xml">
+    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 28m 14s.xml">
       <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 11h 33m 14s.xml">
+    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 28m 47s.xml">
       <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 13h 14m 17s.xml">
+    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 29m 28s.xml">
       <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 13h 14m 57s.xml">
+    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 31m 28s.xml">
       <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 13h 15m 18s.xml">
+    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 33m 06s.xml">
       <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33837000" />
+    <option name="totallyTimeSpent" value="37577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,12 +447,12 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21732284" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37322834" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913387" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" visible="true" weight="0.29291338" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" weight="0.29291338" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50080776" side_tool="true" weight="0.29291338" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -705,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/EmployeePaymentsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+        <state relative-caret-position="202">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -715,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/importPaymentFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="-578">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
