@@ -18,4 +18,7 @@ public class EmployeePaymentsPage {
 
     @FindBy(xpath = "//div[@class='input-group']//span[1]")
     public  WebElement loadFile;
+
+    @FindBy(xpath = "//div[@class='oe_import_with_file oe_padding col-sm-12']")
+    public  WebElement allMap;
 }

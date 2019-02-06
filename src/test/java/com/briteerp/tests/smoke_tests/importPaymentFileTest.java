@@ -3,6 +3,7 @@ package com.briteerp.tests.smoke_tests;
 import com.briteerp.utilities.ConfigurationReader;
 import com.briteerp.utilities.Driver;
 import com.briteerp.utilities.TestBase;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.awt.*;
@@ -30,6 +31,8 @@ public class importPaymentFileTest extends TestBase {
         String filePath="/Users/zulyar/Desktop/testCase.xlsx";
         uploadFileWithRobot(filePath);
 
+        Assert.assertEquals(pages.getPaymentPages().input.getText(),"testCase.xlsx");
+        Assert.assertTrue(pages.getPaymentPages().allMap.isDisplayed());
         Thread.sleep(7000);
 
     }
