@@ -3,19 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ed6c88ac-f7e1-4fff-8bae-2d9c951ede6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/importPaymentFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/importPaymentFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteerp/tests/smoke_tests/importPaymentFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/briteerp/tests/smoke_tests/importPaymentFileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsdisplayActionOptionTest20190205101359.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsdisplayPrintOptionTest20190205064649.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsimportButtonTest20190205113834.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsimportButtonTest20190206011417.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsimportButtonTest20190206011517.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsindividualPriceTest20190205064746.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspriceCheckingTest20190205063729.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspriceCheckingTest20190205064542.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspriceCheckingTest20190205065139.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspriceCheckingTest20190205065853.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshotstest20190205063645.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/pages/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/pages/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/pages/OrderByVendorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/pages/OrderByVendorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/DisplayActionAndOptionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/TotalPirceChecking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/importPaymentFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/EmployeePaymentPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteerp/pages/OrderByVendorPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/briteerp/pages/OrderByVendorPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteerp/tests/smoke_tests/DisplayActionAndOptionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteerp/tests/smoke_tests/TotalPirceChecking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteerp/tests/smoke_tests/importPaymentFileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,12 +25,12 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/EmployeePaymentsPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/OrderByVendorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="-363">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,10 +39,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/importPaymentFileTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/EmployeePaymentPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-578">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="152">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/OrderbyVendorPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,7 +82,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Driver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/ApplicationConstants.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/OrderByVendorPage.java" />
         <option value="$PROJECT_DIR$/test-output/smoke_test.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/NewOderPage.java" />
@@ -86,10 +94,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/DisplayActionAndOptionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Pages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/Menu.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/LunchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/EmployeePaymentsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/importPaymentFileTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/OrderByVendorPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/EmployeePaymentPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/Menu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/OrderbyVendorPageTest.java" />
       </list>
     </option>
   </component>
@@ -186,15 +197,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="briteerp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brite-erp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BRITE_ERP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="briteerp" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -206,15 +208,6 @@
               <item name="briteerp" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="smoke_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brite-erp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BRITE_ERP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="briteerp" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="brite-erp" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +227,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549481640269" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549497383337" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -259,12 +252,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.importPaymentFileTest.importButtonTest">
+  <component name="RunManager">
     <configuration name="DisplayActionAndOptionTest.displayActionOptionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BRITE_ERP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.briteerp.tests.smoke_tests.*" />
+          <option name="PATTERN" value="com.briteerp.tests.smoke_tests.OrderbyVendorPageTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,7 +275,7 @@
       <module name="BRITE_ERP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.briteerp.tests.smoke_tests.*" />
+          <option name="PATTERN" value="com.briteerp.tests.smoke_tests.OrderbyVendorPageTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,52 +289,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisplayActionAndOptionTest.individualPriceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeePaymentPageTest.importButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BRITE_ERP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.briteerp.tests.smoke_tests.*" />
+          <option name="PATTERN" value="com.briteerp.tests.smoke_tests.OrderbyVendorPageTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.briteerp.tests.smoke_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.briteerp.tests.smoke_tests.DisplayActionAndOptionTest" />
-      <option name="METHOD_NAME" value="individualPriceTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TotalPirceChecking.priceCheckingTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="brite-erp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.briteerp.tests.smoke_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.briteerp.tests.smoke_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.briteerp.tests.smoke_tests.TotalPirceChecking" />
-      <option name="METHOD_NAME" value="priceCheckingTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="importPaymentFileTest.importButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BRITE_ERP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.briteerp.tests.smoke_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.briteerp.tests.smoke_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.briteerp.tests.smoke_tests.importPaymentFileTest" />
+      <option name="MAIN_CLASS_NAME" value="com.briteerp.tests.smoke_tests.EmployeePaymentPageTest" />
       <option name="METHOD_NAME" value="importButtonTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -350,20 +307,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderbyVendorPageTest.displayPrintOptionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BRITE_ERP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.briteerp.tests.smoke_tests.OrderbyVendorPageTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.briteerp.tests.smoke_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.briteerp.tests.smoke_tests.OrderbyVendorPageTest" />
+      <option name="METHOD_NAME" value="displayPrintOptionTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderbyVendorPageTest.orderStatusIcon" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BRITE_ERP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.briteerp.tests.smoke_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.briteerp.tests.smoke_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.briteerp.tests.smoke_tests.OrderbyVendorPageTest" />
+      <option name="METHOD_NAME" value="orderStatusIcon" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.TotalPirceChecking.priceCheckingTest" />
       <item itemvalue="TestNG.DisplayActionAndOptionTest.displayPrintOptionTest" />
-      <item itemvalue="TestNG.DisplayActionAndOptionTest.individualPriceTest" />
       <item itemvalue="TestNG.DisplayActionAndOptionTest.displayActionOptionTest" />
-      <item itemvalue="TestNG.importPaymentFileTest.importButtonTest" />
+      <item itemvalue="TestNG.EmployeePaymentPageTest.importButtonTest" />
+      <item itemvalue="TestNG.OrderbyVendorPageTest.displayPrintOptionTest" />
+      <item itemvalue="TestNG.OrderbyVendorPageTest.orderStatusIcon" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.importPaymentFileTest.importButtonTest" />
+        <item itemvalue="TestNG.EmployeePaymentPageTest.importButtonTest" />
+        <item itemvalue="TestNG.OrderbyVendorPageTest.orderStatusIcon" />
+        <item itemvalue="TestNG.OrderbyVendorPageTest.displayPrintOptionTest" />
         <item itemvalue="TestNG.DisplayActionAndOptionTest.displayActionOptionTest" />
         <item itemvalue="TestNG.DisplayActionAndOptionTest.displayPrintOptionTest" />
-        <item itemvalue="TestNG.DisplayActionAndOptionTest.individualPriceTest" />
-        <item itemvalue="TestNG.TotalPirceChecking.priceCheckingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -385,44 +378,45 @@
       <workItem from="1549306550350" duration="756000" />
       <workItem from="1549307871076" duration="1747000" />
       <workItem from="1549409738280" duration="2012000" />
-      <workItem from="1549422619171" duration="9702000" />
+      <workItem from="1549422619171" duration="9968000" />
+      <workItem from="1549494594208" duration="1850000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 13m 09s.xml">
-      <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
+    <history-entry file="OrderbyVendorPageTest_orderStatusIcon - 2019.02.06 at 18h 38m 45s.xml">
+      <configuration name="OrderbyVendorPageTest.orderStatusIcon" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 16m 13s.xml">
-      <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
+    <history-entry file="OrderbyVendorPageTest_orderStatusIcon - 2019.02.06 at 18h 40m 13s.xml">
+      <configuration name="OrderbyVendorPageTest.orderStatusIcon" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 17m 59s.xml">
-      <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
+    <history-entry file="OrderbyVendorPageTest_orderStatusIcon - 2019.02.06 at 18h 43m 30s.xml">
+      <configuration name="OrderbyVendorPageTest.orderStatusIcon" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 19m 10s.xml">
-      <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
+    <history-entry file="OrderbyVendorPageTest_orderStatusIcon - 2019.02.06 at 18h 44m 20s.xml">
+      <configuration name="OrderbyVendorPageTest.orderStatusIcon" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 21m 46s.xml">
-      <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
+    <history-entry file="OrderbyVendorPageTest_orderStatusIcon - 2019.02.06 at 18h 45m 14s.xml">
+      <configuration name="OrderbyVendorPageTest.orderStatusIcon" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 28m 14s.xml">
-      <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
+    <history-entry file="OrderbyVendorPageTest_orderStatusIcon - 2019.02.06 at 18h 46m 32s.xml">
+      <configuration name="OrderbyVendorPageTest.orderStatusIcon" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 28m 47s.xml">
-      <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
+    <history-entry file="EmployeePaymentPageTest_importButtonTest - 2019.02.06 at 18h 53m 29s.xml">
+      <configuration name="EmployeePaymentPageTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 29m 28s.xml">
-      <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
+    <history-entry file="EmployeePaymentPageTest_importButtonTest - 2019.02.06 at 18h 54m 05s.xml">
+      <configuration name="EmployeePaymentPageTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 31m 28s.xml">
-      <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
+    <history-entry file="EmployeePaymentPageTest_importButtonTest - 2019.02.06 at 18h 54m 40s.xml">
+      <configuration name="EmployeePaymentPageTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="importPaymentFileTest_importButtonTest - 2019.02.06 at 14h 33m 06s.xml">
-      <configuration name="importPaymentFileTest.importButtonTest" configurationId="TestNG" />
+    <history-entry file="EmployeePaymentPageTest_importButtonTest - 2019.02.06 at 18h 55m 32s.xml">
+      <configuration name="EmployeePaymentPageTest.importButtonTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37577000" />
+    <option name="totallyTimeSpent" value="39693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,7 +431,7 @@
     <frame x="0" y="22" width="1280" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.319063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -572,16 +566,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/ViewAllMenu.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/OrderByVendorPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/NewOderPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -592,30 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/TotalPirceChecking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/CreateAlert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/DisplayActionAndOptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -646,16 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/utilities/ConfigurationReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -664,13 +618,6 @@
             <element signature="e#293#294#0" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -721,7 +668,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/EmployeePaymentsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="221">
           <caret line="15" column="57" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -729,10 +676,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/importPaymentFileTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/DisplayActionAndOptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="232">
+          <caret line="80" column="5" lean-forward="true" selection-start-line="14" selection-end-line="80" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/OrderByVendorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/TotalPirceChecking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/OrderbyVendorPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/EmployeePaymentPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

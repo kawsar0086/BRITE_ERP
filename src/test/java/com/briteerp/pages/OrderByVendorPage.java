@@ -39,5 +39,8 @@ public class OrderByVendorPage {
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody[2]/tr/th")
     public  WebElement prodcut;
 
+    @FindBy(className = "o_data_cell o_list_button")
+    public WebElement orderStatus;
+
 
 }

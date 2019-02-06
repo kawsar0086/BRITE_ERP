@@ -13,7 +13,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.util.concurrent.TimeUnit;
 
-public class importPaymentFileTest extends TestBase {
+public class EmployeePaymentPageTest extends TestBase {
 
     @Test
     public void importButtonTest() {

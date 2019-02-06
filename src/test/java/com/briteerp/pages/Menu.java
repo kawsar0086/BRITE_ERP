@@ -11,34 +11,34 @@ public class Menu{
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//span[contains(text(),'New Order')]")
     public WebElement new_order;
 
-    @FindBy()
+    @FindBy(xpath = "//span[contains(text(),'Previous Orders')]")
     public WebElement previous_order;
 
-    @FindBy()
+    @FindBy(xpath = "//span[contains(text(),'Your Lunch Account')]")
     public WebElement lunch_account;
 
-    @FindBy()
+    @FindBy(xpath = "//span[contains(text(),\"Today's Orders\")]")
     public WebElement todays_order;
 
-    @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[13]/ul[2]/li[2]/a/span")
+    @FindBy(xpath = "//span[contains(text(),'Orders by Vendor')]")
     public WebElement order_by_vendor;
 
-    @FindBy()
+    @FindBy(xpath = "//span[contains(text(),'Control Accounts')]")
     public WebElement control_account;
 
     @FindBy(xpath = "//span[contains(text(),'Employee Payments')]")
     public WebElement employee_payment;
 
-    @FindBy()
+    @FindBy(xpath = "//div[@class='o_sub_menu_content']//div[13]//ul[3]//li[1]//a[1]")
     public WebElement products;
 
-    @FindBy()
+    @FindBy(xpath = "//span[contains(text(),'Product Categories')]")
     public WebElement product_categories;
 
-    @FindBy()
+    @FindBy(xpath = "//span[contains(text(),'Alerts')]")
     public WebElement alert;
 
 }
