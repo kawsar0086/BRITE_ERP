@@ -16,4 +16,7 @@ public class LunchPage {
 
     @FindBy(xpath = "/html/body/div[1]/div[1]/div[2]/a/span")
     public WebElement copyRigt;
+
+
+
 }

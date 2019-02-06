@@ -1,9 +1,6 @@
 package com.briteerp.utilities;
 
-import com.briteerp.pages.LoginPage;
-import com.briteerp.pages.LunchPage;
-import com.briteerp.pages.Menu;
-import com.briteerp.pages.OrderByVendorPage;
+import com.briteerp.pages.*;
 
 public class Pages {
 
@@ -11,6 +8,7 @@ public class Pages {
     private Menu menu;
     private OrderByVendorPage orderByVendorPage;
     private LunchPage lunchPage;
+    private EmployeePaymentsPage employeePaymentsPage;
 
     public LoginPage login() {
         if (loginPage == null) {
@@ -41,6 +39,12 @@ public class Pages {
         }
 
         return lunchPage;
+    }
+    public EmployeePaymentsPage getPaymentPages(){
+        if(employeePaymentsPage==null){
+            employeePaymentsPage=new EmployeePaymentsPage();
+        }
+        return employeePaymentsPage;
     }
 }
 

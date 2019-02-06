@@ -29,7 +29,7 @@ public class Menu{
     @FindBy()
     public WebElement control_account;
 
-    @FindBy()
+    @FindBy(xpath = "//span[contains(text(),'Employee Payments')]")
     public WebElement employee_payment;
 
     @FindBy()
