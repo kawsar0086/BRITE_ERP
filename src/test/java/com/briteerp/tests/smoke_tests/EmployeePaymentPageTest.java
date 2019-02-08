@@ -9,9 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.awt.*;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
 import java.util.concurrent.TimeUnit;
 
 public class EmployeePaymentPageTest extends TestBase {
@@ -29,7 +26,7 @@ public class EmployeePaymentPageTest extends TestBase {
         //Using robot class to upload file
 
         String filePath="/Users/zulyar/Desktop/testCase.xlsx";
-        uploadFileWithRobot(filePath);
+        BrowserUtils.uploadFile(filePath);
 
         WebDriverWait wait=new WebDriverWait(Driver.getDriver(),10);
         wait.until(ExpectedConditions.visibilityOf(pages.getPaymentPages().allMap));
@@ -53,56 +50,5 @@ public class EmployeePaymentPageTest extends TestBase {
 
     }
 
-    //File upload by Robot Class
-    public void uploadFileWithRobot (String filePath) {
-        StringSelection stringSelection = new StringSelection(filePath);
-        //Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-        //clipboard.setContents(stringSelection, null);
 
-        Robot robot = null;
-
-        try {
-            robot = new Robot();
-        } catch (AWTException e) {
-            e.printStackTrace();
-        }
-
-        /*
-
-        //File upload by using robot class in Windowns OS
-        robot.delay(250);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.delay(150);
-        robot.keyRelease(KeyEvent.VK_ENTER);
-        */
-
-        //File upload by using robot class in MAC OS
-        robot.keyPress(KeyEvent.VK_META);
-        robot.keyPress(KeyEvent.VK_TAB);
-        robot.keyRelease(KeyEvent.VK_META);
-        robot.keyRelease(KeyEvent.VK_TAB);
-        robot.delay(500);
-
-        //Open Goto window
-        robot.keyPress(KeyEvent.VK_META);
-        robot.keyPress(KeyEvent.VK_SHIFT);
-        robot.keyPress(KeyEvent.VK_G);
-        robot.keyRelease(KeyEvent.VK_META);
-        robot.keyRelease(KeyEvent.VK_SHIFT);
-        robot.keyRelease(KeyEvent.VK_G);
-
-        //Press Enter key to close the Goto window and Upload window
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
-        robot.delay(500);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
-
-    }
 }
