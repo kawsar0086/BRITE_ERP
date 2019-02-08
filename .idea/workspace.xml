@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed6c88ac-f7e1-4fff-8bae-2d9c951ede6b" name="Default Changelist" comment="" />
+    <list default="true" id="ed6c88ac-f7e1-4fff-8bae-2d9c951ede6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/pages/ControlAccountsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/ControlAccountsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Pages.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/EmployeePaymentsPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/ControlAccountsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="291">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,14 +62,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/TotalPirceChecking.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/DisplayActionAndOptionTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Pages.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/LunchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/EmployeePaymentsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/importPaymentFileTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/OrderByVendorPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/EmployeePaymentPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/Menu.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/OrderbyVendorPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Pages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/ControlAccountsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/pages/Menu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/ControlAccountsTest.java" />
       </list>
     </option>
   </component>
@@ -161,7 +168,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="briteerp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="brite-erp" type="b2602c69:ProjectViewProjectNode" />
@@ -171,6 +178,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="briteerp" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="smoke_tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="brite-erp" type="b2602c69:ProjectViewProjectNode" />
@@ -190,7 +198,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549582742996" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549586269205" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -377,7 +385,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39900000" />
+    <option name="totallyTimeSpent" value="39979000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,16 +535,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/ViewAllMenu.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/NewOderPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -629,23 +627,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/TotalPirceChecking.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/EmployeePaymentPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -680,6 +661,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="57" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/ControlAccountsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/utilities/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/NewOderPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/pages/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteerp/tests/smoke_tests/ControlAccountsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

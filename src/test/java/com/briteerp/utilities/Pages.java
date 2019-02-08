@@ -9,6 +9,7 @@ public class Pages {
     private OrderByVendorPage orderByVendorPage;
     private LunchPage lunchPage;
     private EmployeePaymentsPage employeePaymentsPage;
+    private  ControlAccountsPage controlAccountsPage;
 
     public LoginPage login() {
         if (loginPage == null) {
@@ -46,7 +47,12 @@ public class Pages {
         }
         return employeePaymentsPage;
     }
+    public ControlAccountsPage getControlAccounts(){
+        if(controlAccountsPage==null){
+            controlAccountsPage=new ControlAccountsPage();
+        }
+
+        return  controlAccountsPage;
+    }
+
 }
-
-
-
