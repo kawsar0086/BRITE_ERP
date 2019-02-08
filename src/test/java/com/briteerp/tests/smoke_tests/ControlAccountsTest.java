@@ -6,6 +6,12 @@ import com.briteerp.utilities.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ *
+ * @Author Zulyar Kurban
+ * @Since Feb 7 2019
+ */
+
 public class ControlAccountsTest extends TestBase {
 
     @Test

@@ -7,9 +7,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.concurrent.TimeUnit;
 
+/**
+ *
+ * @Author Zulyar Kurban
+ * @Since Feb 7 2019
+ */
 public class OrderbyVendorPageTest extends TestBase {
 
 

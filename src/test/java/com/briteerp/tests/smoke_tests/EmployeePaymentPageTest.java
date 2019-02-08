@@ -8,8 +8,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.concurrent.TimeUnit;
+
+/**
+ *
+ * @Author Zulyar Kurban
+ * @Since Feb 7 2019
+ */
 
 public class EmployeePaymentPageTest extends TestBase {
 
@@ -48,6 +53,18 @@ public class EmployeePaymentPageTest extends TestBase {
         BrowserUtils.wait(7);
         Assert.assertTrue(pages.getPaymentPages().allOrders.isDisplayed());
 
+    }
+    @Test
+    public void EmployeesPaymentTest(){
+        Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Driver.getDriver().manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
+        pages.login().managerLogin(ConfigurationReader.getProperty("managerUsername"),
+                ConfigurationReader.getProperty("managerPassword"));
+
+        BrowserUtils.wait(3);
+        pages.getMenu().employee_payment.click();
+
+        Assert.assertTrue(pages.getPaymentPages().eachPrice.isDisplayed());
     }
 
 

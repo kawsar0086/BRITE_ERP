@@ -24,4 +24,8 @@ public class EmployeePaymentsPage {
 
     @FindBy(xpath = "//tbody[@class='ui-sortable']")
     public WebElement allOrders;
+
+    @FindBy(xpath = "//td[@class='o_data_cell o_list_number o_required_modifier']")
+    public WebElement eachPrice;
+
 }
