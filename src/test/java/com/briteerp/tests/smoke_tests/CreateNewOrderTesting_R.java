@@ -14,8 +14,6 @@ public class CreateNewOrderTesting_R extends TestBase {
     public CreateNewOrderTesting_R() {
         PageFactory.initElements(Driver.getDriver(), NewOderPage.class);
     }
-
-
     @Test
     public void test() {
 
