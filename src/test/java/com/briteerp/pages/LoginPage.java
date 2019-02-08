@@ -48,6 +48,8 @@ public class LoginPage extends TestBase {
         actToOkButton.moveToElement(okButton).perform();   // in Actions, we have to do the perform  in order to execute
 
         okButton.click();
+
+
     }
 
     public void userLogin(String username,String psw){
@@ -65,6 +67,7 @@ public class LoginPage extends TestBase {
 
     public void open(){
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
+
     }
 
 
