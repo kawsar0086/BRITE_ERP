@@ -1,5 +1,6 @@
 package com.briteerp.tests.smoke_tests;
 
+import com.briteerp.utilities.BrowserUtils;
 import com.briteerp.utilities.ConfigurationReader;
 import com.briteerp.utilities.Driver;
 import com.briteerp.utilities.TestBase;
@@ -37,6 +38,21 @@ public class EmployeePaymentPageTest extends TestBase {
         Assert.assertTrue(pages.getPaymentPages().allMap.isDisplayed());
 
     }
+    @Test
+    public void allEmployeesOrderTesting(){
+        Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Driver.getDriver().manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
+        pages.login().managerLogin(ConfigurationReader.getProperty("managerUsername"),
+                ConfigurationReader.getProperty("managerPassword"));
+
+        BrowserUtils.wait(3);
+        pages.getMenu().employee_payment.click();
+
+        BrowserUtils.wait(7);
+        Assert.assertTrue(pages.getPaymentPages().allOrders.isDisplayed());
+
+    }
+
     //File upload by Robot Class
     public void uploadFileWithRobot (String filePath) {
         StringSelection stringSelection = new StringSelection(filePath);

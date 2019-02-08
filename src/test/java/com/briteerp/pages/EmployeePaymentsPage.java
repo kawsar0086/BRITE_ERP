@@ -21,4 +21,7 @@ public class EmployeePaymentsPage {
 
     @FindBy(xpath = "//div[@class='oe_import_with_file oe_padding col-sm-12']")
     public  WebElement allMap;
+
+    @FindBy(xpath = "//tbody[@class='ui-sortable']")
+    public WebElement allOrders;
 }
